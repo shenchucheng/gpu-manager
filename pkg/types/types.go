@@ -1,3 +1,9 @@
+/**
+ * @Author: Your name
+ * @Date:   2021-09-09 10:02:25
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2021-09-10 01:05:33
+ */
 /*
  * Tencent is pleased to support the open source community by making TKEStack available.
  *
@@ -30,7 +36,9 @@ const (
 	VCUDA_MOUNTPOINT = "/etc/vcuda"
 
 	/** 256MB */
-	MemoryBlockSize = 268435456
+	// MemoryBlockSize = 268435456
+	/** 128MB */
+	MemoryBlockSize = 134217728
 
 	KubeletSocket                 = "kubelet.sock"
 	VDeviceSocket                 = "vcuda.sock"
